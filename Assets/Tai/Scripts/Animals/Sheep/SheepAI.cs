@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using System.Collections;
 
 public class SheepAI : MonoBehaviour, IDamageable
 {
@@ -26,7 +27,10 @@ public class SheepAI : MonoBehaviour, IDamageable
         UpdateHealthUI();
 
         StartCoroutine(MoveCycle());
+
+        
     }
+
 
     IEnumerator MoveCycle()
     {
@@ -58,12 +62,14 @@ public class SheepAI : MonoBehaviour, IDamageable
 
     public void TakeDamage(int damage)
     {
+        Debug.Log("🩸 Nhận sát thương: " + damage);
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
             currentHealth = 0;
             Die();
         }
+        Debug.Log("🔄 Cập nhật UI máu: " + currentHealth);
         UpdateHealthUI();
     }
 
@@ -72,8 +78,14 @@ public class SheepAI : MonoBehaviour, IDamageable
         if (healthBar != null)
         {
             healthBar.value = (float)currentHealth / maxHealth;
+            Debug.Log("Cập nhật UI máu: " + currentHealth);
+        }
+        else
+        {
+            Debug.LogError("LỖI: healthBar chưa được gán!");
         }
     }
+
 
     void Die()
     {
