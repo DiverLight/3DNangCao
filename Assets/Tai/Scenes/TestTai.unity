@@ -380,6 +380,8 @@ MonoBehaviour:
   moveDuration: 3
   idleDuration: 3
   moveRange: 8
+  maxHealth: 100
+  healthBar: {fileID: 8880257308473347431}
 --- !u!195 &721846031
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1204,7 +1206,7 @@ GameObject:
   - component: {fileID: 1616695045}
   - component: {fileID: 1616695044}
   m_Layer: 3
-  m_Name: Grouun
+  m_Name: Grounnd
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1413,6 +1415,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 8880257308473347433}
   m_SourcePrefab: {fileID: 100100000, guid: 534dcb7af02a56f4c884f55879cc5ca6, type: 3}
+--- !u!114 &8880257308473347431 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3828345592745547145, guid: 534dcb7af02a56f4c884f55879cc5ca6, type: 3}
+  m_PrefabInstance: {fileID: 8880257308473347430}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028592165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8880257308473347433
 MonoBehaviour:
   m_ObjectHideFlags: 0
