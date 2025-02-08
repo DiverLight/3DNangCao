@@ -4,13 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
+
   - CinemachineTarget
   - isGrounded
+
+  - Ground
+
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - Ground
@@ -42,4 +46,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 472621579
     locked: 0
