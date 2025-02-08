@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             movemnetVelocity.y = jumpSpeed;
-            animator.SetTrigger("Jump");
+            animator.SetTrigger("MoveJump");
         }
         else if (isGrounded)
         {
@@ -101,11 +101,11 @@ public class PlayerController : MonoBehaviour
         // Update player position
         characterController.Move(movementVelocity * Time.deltaTime);
 
-        if (movementVelocity != Vector3.zero)
-        {
-            Quaternion targetRotation = Quaternion.LookRotation(movementVelocity);
-            playerTransform.rotation = Quaternion.Slerp(playerTransform.rotation, targetRotation, rotationSmoothTime * Time.deltaTime);
-        }
+        //if (movementVelocity != Vector3.zero)
+        //{
+        //    Quaternion targetRotation = Quaternion.LookRotation(movementVelocity);
+        //    playerTransform.rotation = Quaternion.Slerp(playerTransform.rotation, targetRotation, rotationSmoothTime * Time.deltaTime);
+        //}
 
         // Check if grounded
         isGrounded = characterController.isGrounded;
