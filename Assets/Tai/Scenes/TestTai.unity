@@ -434,7 +434,6 @@ MonoBehaviour:
   idleDuration: 3
   moveRange: 8
   maxHealth: 100
-  healthBar: {fileID: 0}
 --- !u!195 &721846031
 NavMeshAgent:
   m_ObjectHideFlags: 0

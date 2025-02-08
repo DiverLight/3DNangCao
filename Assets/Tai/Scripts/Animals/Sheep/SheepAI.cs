@@ -16,7 +16,7 @@ public class SheepAI : MonoBehaviour, IDamageable
     private Animator animator;
     private bool isMoving = false;
 
-    public Slider healthBar;
+    //public Slider healthBar;
 
     void Start()
     {
@@ -24,7 +24,7 @@ public class SheepAI : MonoBehaviour, IDamageable
         animator = GetComponent<Animator>();
 
         currentHealth = maxHealth;
-        UpdateHealthUI();
+        //UpdateHealthUI();
 
         StartCoroutine(MoveCycle());
 
@@ -70,21 +70,21 @@ public class SheepAI : MonoBehaviour, IDamageable
             Die();
         }
         Debug.Log("🔄 Cập nhật UI máu: " + currentHealth);
-        UpdateHealthUI();
+        //UpdateHealthUI();
     }
 
-    void UpdateHealthUI()
-    {
-        if (healthBar != null)
-        {
-            healthBar.value = (float)currentHealth / maxHealth;
-            Debug.Log("Cập nhật UI máu: " + currentHealth);
-        }
-        else
-        {
-            Debug.LogError("LỖI: healthBar chưa được gán!");
-        }
-    }
+    //void UpdateHealthUI()
+    //{
+    //    if (healthBar != null)
+    //    {
+    //        healthBar.value = (float)currentHealth / maxHealth;
+    //        Debug.Log("Cập nhật UI máu: " + currentHealth);
+    //    }
+    //    else
+    //    {
+    //        Debug.LogError("LỖI: healthBar chưa được gán!");
+    //    }
+    //}
 
 
     void Die()
