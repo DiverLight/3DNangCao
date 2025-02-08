@@ -408,6 +408,7 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+
 --- !u!1 &721846028 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 99edeefee2d97154083f233708f43493, type: 3}
@@ -498,6 +499,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.0821414, y: 4.6246266, z: 6.310555}
   m_Center: {x: -0.12044358, y: 2.4104774, z: 0.32671285}
+
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,5 +1374,7 @@ SceneRoots:
   - {fileID: 1616695047}
   - {fileID: 1410130024}
   - {fileID: 1532850765}
+
   - {fileID: 405003971}
   - {fileID: 1610572090}
+
