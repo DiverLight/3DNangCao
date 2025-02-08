@@ -24,6 +24,8 @@ public class SheepAI : MonoBehaviour, IDamageable
         animator = GetComponent<Animator>();
 
         currentHealth = maxHealth;
+        //
+        //
         //UpdateHealthUI();
 
         StartCoroutine(MoveCycle());

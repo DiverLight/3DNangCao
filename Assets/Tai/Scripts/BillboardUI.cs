@@ -10,7 +10,8 @@ public class BillboardUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mainCamera = Camera.main;
+        mainCamera = FindObjectOfType<Camera>();
+
     }
 
     // Update is called once per frame
