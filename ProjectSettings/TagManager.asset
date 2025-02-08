@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
+
+  - CinemachineTarget
+  - isGrounded
+
   - Ground
+
   layers:
   - Default
   - TransparentFX
@@ -12,7 +17,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
