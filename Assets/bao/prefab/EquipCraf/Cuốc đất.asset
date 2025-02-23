@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ccdf5a348ad7348b25818edf90fab3, type: 3}
+  m_Name: "Cu\u1ED1c \u0111\u1EA5t"
+  m_EditorClassIdentifier: 
+  Id: 5
+  EquipName: "Cu\u1ED1c \u0111\u1EA5t"
+  EquipIcon: {fileID: 21300000, guid: cd3d45b87324ad44ba21cb4ed5ad3050, type: 3}
+  Describe: "D\xF9ng \u0111\u1EC3 l\xE0m t\u01A1i x\u1ED1p \u0111\u1EA5t"
+  EquipPrefab: {fileID: 919132149155446097, guid: cac02654c83b2c94faf8ee2dfcaab1d9, type: 3}
+  materialsNeeded:
+  - material: {fileID: 11400000, guid: ede2003e34c4ad34da502d4b5205de10, type: 2}
+    amount: 1
+  - material: {fileID: 11400000, guid: 5506078850f5d8048a36149f4ecbe093, type: 2}
+    amount: 1

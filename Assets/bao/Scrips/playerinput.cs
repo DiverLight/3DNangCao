@@ -1,29 +1,28 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerinput : MonoBehaviour
 {
-    public float horizontalInput;
-    public float veticalInput;
     public bool AtkInput;
+    public Animator animator; // Thêm tham chiếu đến Animator
 
-    // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        veticalInput = Input.GetAxisRaw("Vertical");
         if (!AtkInput && Time.timeScale != 0)
         {
-            AtkInput = Input.GetMouseButtonDown(0);// nhan chuot trai
+            AtkInput = Input.GetMouseButtonDown(0); 
+            if (AtkInput && animator != null) // Kiểm tra AtkInput và animator
+            {
+                animator.SetTrigger("Atk1"); // Kích hoạt animation "Attack"
+            }
         }
-        
-        
-    }
-    private void OnDisable()
-    {
-        horizontalInput = 0;
-        veticalInput = 0;
-        AtkInput = false;   
+
+        // Reset AtkInput sau khi đã xử lý
+        if (AtkInput)
+        {
+            AtkInput = false;
+        }
     }
 }

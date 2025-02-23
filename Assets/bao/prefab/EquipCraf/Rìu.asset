@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ccdf5a348ad7348b25818edf90fab3, type: 3}
+  m_Name: "R\xECu"
+  m_EditorClassIdentifier: 
+  Id: 2
+  EquipName: "R\xECu"
+  EquipIcon: {fileID: 21300000, guid: 37f7f74c356557f438dff7412f75518f, type: 3}
+  Describe: "D\xF9ng \u0111\u1EC3 ch\u1EB7t g\u1ED7"
+  EquipPrefab: {fileID: 3161455781078140024, guid: 580505eb6e3cb1841b1bf6917de6266e, type: 3}
+  materialsNeeded:
+  - material: {fileID: 11400000, guid: ede2003e34c4ad34da502d4b5205de10, type: 2}
+    amount: 1
+  - material: {fileID: 11400000, guid: 5506078850f5d8048a36149f4ecbe093, type: 2}
+    amount: 1
