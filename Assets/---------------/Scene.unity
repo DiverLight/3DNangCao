@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 19634198}
   - component: {fileID: 19634197}
   - component: {fileID: 19634196}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 469814767}
   - component: {fileID: 469814766}
   - component: {fileID: 469814765}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: DoorModel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 478472444}
   - component: {fileID: 478472443}
   - component: {fileID: 478472442}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: Nob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -452,7 +452,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 570162035}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: LeftDoorPilot
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
@@ -652,7 +652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 675075886}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: Door Preview
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 702396656}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: RightDoorPilot
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 870990702}
   - component: {fileID: 870990701}
   - component: {fileID: 870990700}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: FloorPreview
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1055,7 +1055,7 @@ GameObject:
   - component: {fileID: 1130554110}
   - component: {fileID: 1130554109}
   - component: {fileID: 1130554108}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: DoorModel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1338,7 +1338,7 @@ GameObject:
   - component: {fileID: 1348810106}
   - component: {fileID: 1348810105}
   - component: {fileID: 1348810104}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: Nob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1440,7 +1440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1389346875}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: RightDoorPilot
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
@@ -1473,7 +1473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503746258}
   - component: {fileID: 1503746259}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1520,7 +1520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1558644263}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: LeftDoorPilot
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
@@ -1555,7 +1555,7 @@ GameObject:
   - component: {fileID: 1674902296}
   - component: {fileID: 1674902295}
   - component: {fileID: 1674902294}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: DoorModel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1661,7 +1661,7 @@ GameObject:
   - component: {fileID: 1697882271}
   - component: {fileID: 1697882270}
   - component: {fileID: 1697882269}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: DoorModel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1767,7 +1767,7 @@ GameObject:
   - component: {fileID: 1716120423}
   - component: {fileID: 1716120422}
   - component: {fileID: 1716120421}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: Nob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1996,7 +1996,7 @@ GameObject:
   - component: {fileID: 1917085981}
   - component: {fileID: 1917085980}
   - component: {fileID: 1917085979}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: Nob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
