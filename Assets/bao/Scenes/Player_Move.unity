@@ -926,6 +926,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.007
       objectReference: {fileID: 0}
+    - target: {fileID: 6823260361181356604, guid: 1c443c3abb862244aa6185fe28d5f5bb, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8639043937866042473, guid: 1c443c3abb862244aa6185fe28d5f5bb, type: 3}
       propertyPath: Priority
       value: 102
