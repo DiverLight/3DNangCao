@@ -7,17 +7,17 @@ public class BuildSystem : MonoBehaviour
     [SerializeField] Transform CamChild;
     [SerializeField] Transform FloorBuild;
     [SerializeField] Transform WallBuild;
-    [SerializeField] private Transform DoorBuild;
+    
 
     RaycastHit Hit;
 
     [SerializeField] Transform FloorPrefab;
     [SerializeField] Transform WallPrefab;
-    [SerializeField] private Transform DoorPrefab;
+    
 
     //private enum BuildType { Floor, Wall }
     //private BuildType currentBuild = BuildType.Floor;
-    private enum BuildType { Floor, Wall, Door }
+    private enum BuildType { Floor, Wall}
     private BuildType currentBuild = BuildType.Floor;
 
 
