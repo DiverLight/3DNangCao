@@ -7,13 +7,19 @@ public class BuildSystem : MonoBehaviour
     [SerializeField] Transform CamChild;
     [SerializeField] Transform FloorBuild;
     [SerializeField] Transform WallBuild;
+    [SerializeField] private Transform DoorBuild;
+
     RaycastHit Hit;
 
     [SerializeField] Transform FloorPrefab;
     [SerializeField] Transform WallPrefab;
+    [SerializeField] private Transform DoorPrefab;
 
-    private enum BuildType { Floor, Wall }
+    //private enum BuildType { Floor, Wall }
+    //private BuildType currentBuild = BuildType.Floor;
+    private enum BuildType { Floor, Wall, Door }
     private BuildType currentBuild = BuildType.Floor;
+
 
     private int rotationAngle = 0; // Góc xoay của công trình
 
@@ -80,6 +86,8 @@ public class BuildSystem : MonoBehaviour
                 }
             }
 
+
+
             // Phá công trình khi nhấn C
             if (Input.GetKeyDown(KeyCode.C))
             {
@@ -102,6 +110,8 @@ public class BuildSystem : MonoBehaviour
         {
             currentBuild = BuildType.Wall;
         }
+        
+
 
         if (Input.GetKeyDown(KeyCode.P))
         {
