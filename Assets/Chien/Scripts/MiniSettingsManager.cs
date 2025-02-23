@@ -13,10 +13,10 @@ public class MiniSettingsManager : MonoBehaviour
 
     void Update()
     {
-        // Nhấn ESC để đóng MiniSettingsPanel nếu nó đang mở
-        if (Input.GetKeyDown(KeyCode.Escape) && miniSettingsPanel.activeSelf)
+        // Nhấn ESC để mở hoặc đóng MiniSettingsPanel
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            ReturnToGame();
+            ToggleMiniSettings();
         }
     }
 
@@ -26,10 +26,7 @@ public class MiniSettingsManager : MonoBehaviour
         miniSettingsPanel.SetActive(isActive);
 
         // Dừng game khi mở panel
-        if (isActive)
-        {
-            Time.timeScale = 0f;
-        }
+        Time.timeScale = isActive ? 0f : 1f;
     }
 
     public void ReturnToGame()
@@ -44,4 +41,3 @@ public class MiniSettingsManager : MonoBehaviour
         SceneManager.LoadScene("Menu"); // Thay "Menu" bằng tên Scene Menu của bạn
     }
 }
-
