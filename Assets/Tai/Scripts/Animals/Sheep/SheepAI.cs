@@ -3,7 +3,7 @@ using UnityEngine.AI;
 using UnityEngine.UI;
 using System.Collections;
 
-public class SheepAI : MonoBehaviour, IDamageable
+public class SheepAI : MonoBehaviour
 {
     public float moveDuration = 3f;
     public float idleDuration = 3f;

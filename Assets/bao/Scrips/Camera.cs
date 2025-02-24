@@ -21,6 +21,8 @@ public class Camera : MonoBehaviour
     [SerializeField] private float yMaxRotation = 80f;
 
     private bool isLocked = false; // Flag to track lock state
+    internal float fieldOfView;
+    internal static object main;
 
     void Start()
     {
