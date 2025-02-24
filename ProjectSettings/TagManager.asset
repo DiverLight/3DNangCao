@@ -4,20 +4,30 @@
 TagManager:
   serializedVersion: 2
   tags:
+
   - CinemachineTarget
   - isGrounded
   - Fire
   - Slot
   - Inventory
+
+  - Ground
+  - Buildable
+
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
+
   - Ground
   - Item
+
+  - Buildable
+  - 
+
   - 
   - 
   - 
@@ -45,4 +55,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 472621579
     locked: 0
