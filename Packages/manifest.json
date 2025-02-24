@@ -3,9 +3,24 @@
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.collab-proxy": "2.6.0",
     "com.unity.feature.development": "1.0.1",
+<<<<<<< HEAD
     "com.unity.render-pipelines.high-definition": "14.0.11",
     "com.unity.render-pipelines.universal": "14.0.11",
     "com.unity.terrain-tools": "5.0.5",
+=======
+
+    "com.unity.render-pipelines.core": "14.0.11",
+    "com.unity.render-pipelines.high-definition": "14.0.11",
+    "com.unity.render-pipelines.universal": "14.0.11",
+
+    "com.unity.render-pipelines.high-definition": "14.0.11",
+    "com.unity.render-pipelines.universal": "14.0.11",
+
+
+    "com.unity.terrain-tools": "5.0.5",
+
+
+>>>>>>> 146cdc5aa2aa0acbbf1f60aed0c4563bc8ce9be6
     "com.unity.textmeshpro": "3.0.7",
     "com.unity.timeline": "1.7.6",
     "com.unity.ugui": "1.0.0",

@@ -30,5 +30,13 @@ MonoBehaviour:
   m_StripUnusedLODCrossFadeVariants: 1
   m_StripScreenCoordOverrideVariants: 1
   supportRuntimeDebugDisplay: 0
+<<<<<<< HEAD
   m_ShaderVariantLogLevel: 0
+=======
+
+  m_ShaderVariantLogLevel: 2
+
+  m_ShaderVariantLogLevel: 0
+
+>>>>>>> 146cdc5aa2aa0acbbf1f60aed0c4563bc8ce9be6
   m_ExportShaderVariants: 1
