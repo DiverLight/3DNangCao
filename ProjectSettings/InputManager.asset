@@ -294,6 +294,11 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
+
+    m_Name: Enable Debug Button 1
+    descriptiveName: 
+    descriptiveNegativeName: 
+
     m_Name: showmenu
     descriptiveName: p
     descriptiveNegativeName: p
@@ -313,6 +318,7 @@ InputManager:
     m_Name: Enable Debug Button 1
     descriptiveName: 
     descriptiveNegativeName: p
+
     negativeButton: 
     positiveButton: left ctrl
     altNegativeButton: 
@@ -328,7 +334,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Enable Debug Button 2
     descriptiveName: 
+
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+
     negativeButton: 
     positiveButton: backspace
     altNegativeButton: 
@@ -344,7 +354,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Reset
     descriptiveName: 
+ 
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+ 
     negativeButton: 
     positiveButton: left alt
     altNegativeButton: 
@@ -360,7 +374,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Next
     descriptiveName: 
+ 
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+ 
     negativeButton: 
     positiveButton: page down
     altNegativeButton: 
@@ -376,7 +394,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Previous
     descriptiveName: 
+ TieuBaoGD2
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+ 
     negativeButton: 
     positiveButton: page up
     altNegativeButton: 
@@ -392,7 +414,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Validate
     descriptiveName: 
+ 
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+ 
     negativeButton: 
     positiveButton: return
     altNegativeButton: 
@@ -408,7 +434,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Persistent
     descriptiveName: 
+ 
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+ 
     negativeButton: 
     positiveButton: right shift
     altNegativeButton: 
@@ -424,7 +454,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Multiplier
     descriptiveName: 
+ 
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+ 
     negativeButton: 
     positiveButton: left shift
     altNegativeButton: 
@@ -440,7 +474,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Horizontal
     descriptiveName: 
+
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+
     negativeButton: left
     positiveButton: right
     altNegativeButton: 
@@ -456,7 +494,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Vertical
     descriptiveName: 
+
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+
     negativeButton: down
     positiveButton: up
     altNegativeButton: 
@@ -472,7 +514,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Vertical
     descriptiveName: 
+
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+
     negativeButton: down
     positiveButton: up
     altNegativeButton: 
@@ -488,7 +534,11 @@ InputManager:
   - serializedVersion: 3
     m_Name: Debug Horizontal
     descriptiveName: 
+
+    descriptiveNegativeName: 
+
     descriptiveNegativeName: p
+
     negativeButton: left
     positiveButton: right
     altNegativeButton: 

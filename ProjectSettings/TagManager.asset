@@ -4,8 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
+
+  - CinemachineTarget
+  - isGrounded
+  - Fire
+  - Slot
+  - Inventory
+
   - Ground
   - Buildable
+
   layers:
   - Default
   - TransparentFX
@@ -13,8 +21,13 @@ TagManager:
   - Ground
   - Water
   - UI
+
+  - Ground
+  - Item
+
   - Buildable
   - 
+
   - 
   - 
   - 
