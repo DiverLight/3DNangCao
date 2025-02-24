@@ -1,11 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Ellen/Textures/Ellen_Head_Microdetail.tif.meta
 guid: eb1b3af505a9c4c1c81b05081339e090
 timeCreated: 1499355270
 licenseType: Store
+========
+guid: 2ea7b72f85db9b14090108a266c32dc2
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/---------------/Stylized Wood Textures/Textures/Chevron/Wood_Chevron_normal.png.meta
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Ellen/Textures/Ellen_Head_Microdetail.tif.meta
   serializedVersion: 4
+========
+  serializedVersion: 11
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/---------------/Stylized Wood Textures/Textures/Chevron/Wood_Chevron_normal.png.meta
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -55,6 +63,11 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Ellen/Textures/Ellen_Head_Microdetail.tif.meta
+========
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/---------------/Stylized Wood Textures/Textures/Chevron/Wood_Chevron_normal.png.meta
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048

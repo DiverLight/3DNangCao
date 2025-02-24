@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Chomper/Prefabs/Chomper.prefab.meta
 guid: cbbcf6e267045b043ae0a5d0debc8280
+========
+guid: c9bc1c2e3c6351e4dbf5dc1ea1460f24
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/---------------/Mini First Person Controller/Sheep.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/bao/Scrips/InventoryManager.cs.meta
+guid: 0579eb3d2adf481418716a89c5a9ba8e
+========
+guid: 27b67ddb3d23b8340b125aede56d7e8c
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/---------------/Mini First Person Controller/Scripts/Components/Crouch.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

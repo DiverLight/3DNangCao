@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Polygon-Lite Survival Collection/Materials/Green.mat.meta
 guid: 2e3fe719eece0ce45a47859435eb62b9
+========
+guid: cf2649d8410aacf43860f9496d8804f2
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Blink/Art/Characters/LowPoly/Demo_FREE_LowPolyCharacter/PPProfile.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0

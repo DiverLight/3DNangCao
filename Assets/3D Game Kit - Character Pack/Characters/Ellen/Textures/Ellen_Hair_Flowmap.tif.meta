@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Ellen/Textures/Ellen_Hair_Flowmap.tif.meta
 guid: 58b6e8a9f58278d418ddae62e8e12994
 timeCreated: 1505210668
+========
+guid: 4900b2b933f056247806df532f93e2b9
+timeCreated: 1559717450
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Chien/Supercyan Free Forest Sample/Textures/Ground/forestpack_moss_light_tile_diffuse.png.meta
 licenseType: Store
 TextureImporter:
   fileIDToRecycleName: {}
@@ -9,7 +14,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -50,7 +55,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 1
+  textureType: 0
   textureShape: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
@@ -65,6 +70,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Ellen/Textures/Ellen_Hair_Flowmap.tif.meta
   - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,6 +80,8 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+========
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Chien/Supercyan Free Forest Sample/Textures/Ground/forestpack_moss_light_tile_diffuse.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites: []

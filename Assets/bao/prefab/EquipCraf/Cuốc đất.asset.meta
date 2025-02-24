@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/bao/prefab/EquipCraf/Cuốc đất.asset.meta
 guid: c06df632dbaa8ce48ac24e2636032e18
+========
+guid: af78c3c081556ab4097e9e617a0af624
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Chien/UniversalRenderPipelineGlobalSettings.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/bao/prefab/EquipCraf/Cuốc chim.asset.meta
 guid: ad1e4117b5ed1384dad6fa46a233721e
+========
+guid: 781907f81f7b29f4aa54f3fb8d3f2253
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Chien/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

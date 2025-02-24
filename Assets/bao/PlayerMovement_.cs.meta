@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/bao/Scrips/Equip.cs.meta
+guid: c10faddc9c998ff4ca856b6d882dba49
+========
+guid: 6a5f1bfcad33b5d43abc4b40a0c8c083
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/bao/PlayerMovement_.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

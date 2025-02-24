@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Chomper/Materials.meta
 guid: bffec9e76c0636346b0a606e3f51d146
+========
+guid: c2d16f73abf114443b1d40e128bc7e22
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/---------------/Stylized Wood Textures/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

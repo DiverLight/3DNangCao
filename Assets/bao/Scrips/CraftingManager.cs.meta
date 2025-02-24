@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/bao/Scrips/CraftingManager.cs.meta
 guid: a0ec60eed7fdc5e4586523a43fb72719
+========
+guid: 184996190e29217439e90083555047ad
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/bao/Scrips/Sheep/SheepAI.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

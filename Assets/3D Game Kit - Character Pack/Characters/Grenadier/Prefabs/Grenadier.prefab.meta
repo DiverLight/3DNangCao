@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Grenadier/Prefabs/Grenadier.prefab.meta
 guid: 72c9dad2fd884694abb99b8dc561f15d
+========
+guid: 2863af8598549224c8fb8faee0d5baf0
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/---------------/_Prefabs/Door Preview.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

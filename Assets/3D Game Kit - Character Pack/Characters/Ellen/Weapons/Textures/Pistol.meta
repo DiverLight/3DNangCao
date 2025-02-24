@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Ellen/Weapons/Textures/Pistol.meta
 guid: cd1019c0ae82a3141aed9e6b36a7b99b
 folderAsset: yes
 timeCreated: 1494433608
+========
+guid: 8cd04ae807995f94b93afb88bb040f39
+folderAsset: yes
+timeCreated: 1559546252
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Chien/Supercyan Free Forest Sample/Materials/High Quality/Foliage.meta
 licenseType: Store
 DefaultImporter:
   userData: 

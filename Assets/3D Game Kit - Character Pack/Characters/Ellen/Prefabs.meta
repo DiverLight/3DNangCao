@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Ellen/Prefabs.meta
 guid: fbe65126ee3834f4293b45c12ea6a306
+========
+guid: 302623542c8b89e42b8ccca16ad3f559
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Chien/LowPoly Forest - Lite/Prefabs.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/bao/Scrips/Equip.cs.meta
 guid: 65ccdf5a348ad7348b25818edf90fab3
+========
+guid: 6a5f1bfcad33b5d43abc4b40a0c8c083
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/bao/PlayerMovement_.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

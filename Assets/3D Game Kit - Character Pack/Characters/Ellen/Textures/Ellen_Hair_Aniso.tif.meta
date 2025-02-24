@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Ellen/Textures/Ellen_Hair_Aniso.tif.meta
 guid: dd72bc5fe56044943b32cb72cb2a473d
 timeCreated: 1505211005
+========
+guid: 1056b8bf593938a4399e74aa632e2a21
+timeCreated: 1559804619
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Chien/Supercyan Free Forest Sample/Textures/Foliage/forestpack_foliage_diffuse.png.meta
 licenseType: Store
 TextureImporter:
   fileIDToRecycleName: {}

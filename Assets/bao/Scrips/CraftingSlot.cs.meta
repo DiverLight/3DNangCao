@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/bao/Scrips/CraftingSlot.cs.meta
 guid: 1093a230f54b7a742a5ca21b99eaca25
+========
+guid: fd8625719c76585418ed3c8419fa2882
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Tai/Scripts/BillboardUI.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

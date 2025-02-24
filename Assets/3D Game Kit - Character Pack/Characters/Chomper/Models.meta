@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Game Kit - Character Pack/Characters/Chomper/Models.meta
 guid: 29561e69de6723b4ca1814976f82b6cb
+========
+guid: 714d6bfb05bd6e34eb47952f09e16fda
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Unity Technologies/LowpolyCharacterRio/Models.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/bao/Tai_Nguyen/CuocDaoKhoan.png.meta
 guid: 4712b1ef1a6fb8b41b7c602a6c3f60d7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
+========
+guid: 8dd9c2bc57ce783439889e0202d79d61
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/---------------/Stylized Wood Textures/Textures/Chevron/Wood_Chevron_ambientocclusion.png.meta
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -64,8 +72,11 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<<< HEAD:Assets/bao/Tai_Nguyen/CuocDaoKhoan.png.meta
   swizzle: 50462976
   cookieLightType: 0
+========
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/---------------/Stylized Wood Textures/Textures/Chevron/Wood_Chevron_ambientocclusion.png.meta
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform

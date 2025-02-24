@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Polygon-Lite Survival Collection/Materials/Black.mat.meta
 guid: 05b92fe9187c747429c7a303f90baafc
+========
+guid: 88d61e4b5bb195a4da585dd9c8d8ea4d
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Blink/Art/Characters/LowPoly/Demo_FREE_LowPolyCharacter/DEMO_FREE_LowPolyHumans/LightingData.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0

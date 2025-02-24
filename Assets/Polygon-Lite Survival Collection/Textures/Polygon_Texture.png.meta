@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Polygon-Lite Survival Collection/Textures/Polygon_Texture.png.meta
 guid: da3cc78bab11e764ab7a3ae73c6799d1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
+========
+guid: b2377c5920b3a8b4f9e683b0edbfa8f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+>>>>>>>> a03bbe21af12cb013f47befa305d369816f0ea3a:Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Textures_Humans/LowPolyArmorTexture.png.meta
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -57,6 +65,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
