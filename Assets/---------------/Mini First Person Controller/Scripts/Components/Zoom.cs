@@ -1,20 +1,23 @@
 ﻿using UnityEngine;
 
 [ExecuteInEditMode]
-public class Zoom : MonoBehaviour
+public class CameraZoom : MonoBehaviour // Đổi tên class thành CameraZoom
 {
-    Camera camera;
+    public Camera camera; // Sử dụng UnityEngine.Camera
     public float defaultFOV = 60;
     public float maxZoomFOV = 15;
     [Range(0, 1)]
     public float currentZoom;
     public float sensitivity = 1;
 
-
     void Awake()
     {
         // Get the camera on this gameObject and the defaultZoom.
-        camera = GetComponent<Camera>();
+        if (camera == null) // Kiểm tra xem camera đã được gán chưa
+        {
+            camera = GetComponent<Camera>();
+        }
+
         if (camera)
         {
             defaultFOV = camera.fieldOfView;

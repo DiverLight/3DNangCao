@@ -2,43 +2,50 @@ using UnityEngine;
 
 public class AutoDoor : MonoBehaviour
 {
-    public Transform leftDoor;  // Cánh cửa trái
-    public Transform rightDoor; // Cánh cửa phải
-    private bool isOpen = false;
-    private float speed = 3f;
+    public Transform leftDoor;
+    public Transform rightDoor;
+    public float speed = 3f;
+    public float openAngle = 90f; // Góc mở cửa
+    public float activationDistance = 3f; // Khoảng cách kích hoạt
 
+    private bool isOpen = false;
     private Quaternion leftClosedRotation, leftOpenRotation;
     private Quaternion rightClosedRotation, rightOpenRotation;
 
     void Start()
     {
-        // Lưu trạng thái đóng ban đầu của 2 cửa
         leftClosedRotation = leftDoor.rotation;
         rightClosedRotation = rightDoor.rotation;
 
-        // Cửa mở 90 độ theo hướng tương ứng
-        leftOpenRotation = Quaternion.Euler(0, leftDoor.eulerAngles.y - 90, 0);
-        rightOpenRotation = Quaternion.Euler(0, rightDoor.eulerAngles.y + 90, 0);
+        leftOpenRotation = Quaternion.Euler(0, leftDoor.eulerAngles.y - openAngle, 0);
+        rightOpenRotation = Quaternion.Euler(0, rightDoor.eulerAngles.y + openAngle, 0);
     }
 
     void Update()
     {
-        if (IsPlayerNearby())
-        {
-            isOpen = true;
-        }
-        else
-        {
-            isOpen = false;
-        }
+        isOpen = IsPlayerNearby();
 
-        // Xoay cửa theo trạng thái mở/đóng
         leftDoor.rotation = Quaternion.Lerp(leftDoor.rotation, isOpen ? leftOpenRotation : leftClosedRotation, Time.deltaTime * speed);
         rightDoor.rotation = Quaternion.Lerp(rightDoor.rotation, isOpen ? rightOpenRotation : rightClosedRotation, Time.deltaTime * speed);
     }
 
     private bool IsPlayerNearby()
     {
-        return Vector3.Distance(transform.position, Camera.main.transform.position) < 3f;
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position, activationDistance);
+        foreach (var hitCollider in hitColliders)
+        {
+            if (hitCollider.CompareTag("Player")) // Kiểm tra tag "Player"
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //Vẽ một hình cầu để debug trong scene view.
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, activationDistance);
     }
 }
